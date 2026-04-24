@@ -22,3 +22,7 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+java-anatomia-classes/.vscode/settings.json
+java-anatomia-classes/src/edu/gabriel/primeiromodulo/TiposVariaveis.java
+java-anatomia-classes/src/edu/gabriel/primeiromodulo/MinhaClasseUm.java
+java-anatomia-classes/src/edu/gabriel/primeiromodulo/MinhaClassDois.java
