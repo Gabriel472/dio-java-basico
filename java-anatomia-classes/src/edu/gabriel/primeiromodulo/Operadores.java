@@ -112,7 +112,7 @@ public class Operadores {
         
 
         // Operadores Ternários  
-        {
+        {/*
             // Os Operadores Ternários são utilizados para definir uma condição entre dois valores. Se assemelha à estrutura de controle de decisão IF, com o diferencial de ser estruturada em apenas uma única linha.
             // É representado pelos símbolos de interrogação e dois pontos (?:), e são utilizados na seguinto estrutura de sintaxe: <Expressão Condicional> ? <Caso condição seja True> : <Caso condição seja False>
             {
@@ -136,6 +136,92 @@ public class Operadores {
                     int resultadoTernarioNumeral = a == b ? 1 : 0;
                     System.out.println("A resposta para o resultado é " + resultadoTernarioNumeral + ".");
                 }
+            } */
+        }
+
+        // Operadores Relacionais
+        {
+            // Os Operadores Relacionais avaliam a relação entre duas variáveis ou expressões. Neste caso, mais precisamente, definem se o operando à esquerda é igual, diferente, menor, menor ou igual, maior ou maior ou igual ao da direita, retornando um valor booleano como resultado.
+            // == - é utilizado quando se deseja verificar se uma variável é IGUAL A outra.
+            // != - é utilizado quando se deseja verificar se uma variável é DIFERENTE da outra.
+            // > - é utilizado quando se deseja verificar se uma variável é MAIOR QUE a outra.
+            // >= - é utilizado quando se deseja verificar se uma variável é MAIOR OU IGUAL a outra.
+            // < - é utilizado quando se deseja verificar se uma variável é MENOR que a outra.
+            // <= - é utilizado quando se deseja verificar se uma variávem é MENOR OU IGUAL a outra.
+            {
+                //Igual
+                int numeroUmIgual = 1;
+                int numeroDoisIgual = 1;
+                if(numeroUmIgual == numeroDoisIgual)
+                    System.out.println("Numero1 é IGUAL ao Numero2.");
+                else
+                    System.err.println("Numero1 não é IGUAL ao Numero2.");
+                int resultadoNumeroUmIgual = numeroUmIgual == numeroDoisIgual ? 1 : 0;
+                System.out.println(resultadoNumeroUmIgual);
+
+                //Diferente
+                int numeroUmDiferente = 2;
+                int numeroDoisDiferente = 1;
+                if(numeroUmDiferente != numeroDoisDiferente)
+                    System.out.println("Numero1 é DIFERENTE do Numero2.");
+                else
+                    System.out.println("Numero1 não é DIFERENTE do Numero2.");
+                int resultadoNumeroDiferente = numeroUmDiferente != numeroDoisDiferente ? 1 : 0;
+                System.out.println(resultadoNumeroDiferente);
+                
+                // Maior
+                int numeroUmMaior = 2;
+                int numeroDoisMaior = 1;
+                if(numeroUmMaior > numeroDoisMaior)
+                    System.out.println("Numero1 é MAIOR que Numero2.");
+                else
+                    System.out.println("Numero1 não é MAIOR que Numero2.");
+                int resultadoNumeroMaior = numeroUmMaior > numeroDoisMaior ? 1 : 0;
+                System.out.println(resultadoNumeroMaior);
+
+                // Maior ou igual
+                int numeroUmMaiorIgual = 2;
+                int numeroDoisMaiorIgual = 2;
+                if(numeroUmMaiorIgual >= numeroDoisMaiorIgual)
+                    System.out.println("Numero1 é MAIOR OU IGUAL que Numero2.");
+                else
+                    System.out.println("Numero1 não é MAIOR OU IGUAL que Numero2.");
+                int resultadoNumeroMaiorIgual = numeroUmMaiorIgual >= numeroDoisMaiorIgual ? 1 : 0;
+                System.out.println(resultadoNumeroMaiorIgual);
+
+                // Menor
+                int numeroUmMenor = 1;
+                int numeroDoisMenor = 2;
+                if(numeroUmMenor < numeroDoisMenor)
+                    System.out.println("Numero1 é MENOR que Numero2.");
+                else
+                    System.out.println("Numero1 não é MENOR que Numero2.");
+                int resultadoNumeroMenor = numeroUmMenor < numeroDoisMenor ? 1 : 0;
+                System.out.println(resultadoNumeroMenor);
+
+                // Menor ou igual
+                int numeroUmMenorIgual = 1;
+                int numeroDoisMenorIgual = 1;
+                if(numeroUmMenorIgual <= numeroDoisMenorIgual)
+                    System.out.println("Numero1 é MENOR OU IGUAL ao Numero2.");
+                else
+                    System.out.println("Numero1 não é IGUAL OU MENOR que o Numero2.");
+
+                int resultadoNumeroMenorIgual = numeroUmMenorIgual <= numeroDoisMenorIgual ? 1 : 0;
+                System.out.println(resultadoNumeroMenorIgual);
+
+                // Strings
+                String nomeUm = "Gabriel";
+                String nomeDois = "Gabriel";
+                System.out.println(nomeUm == nomeDois);
+
+                String nomeTres = "Gabriel";
+                String nomeQuatro = new String("Gabriel");
+                System.out.println(nomeTres == nomeQuatro);
+
+                String nomeCinco = "Gabriel";
+                String nomeSeis = new String("Gabriel");
+                System.out.println(nomeCinco.equals(nomeSeis));
             }
         }
     }
