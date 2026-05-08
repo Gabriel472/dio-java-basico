@@ -139,8 +139,9 @@ public class Operadores {
             } */
         }
 
+
         // Operadores Relacionais
-        {
+        {/*
             // Os Operadores Relacionais avaliam a relação entre duas variáveis ou expressões. Neste caso, mais precisamente, definem se o operando à esquerda é igual, diferente, menor, menor ou igual, maior ou maior ou igual ao da direita, retornando um valor booleano como resultado.
             // == - é utilizado quando se deseja verificar se uma variável é IGUAL A outra.
             // != - é utilizado quando se deseja verificar se uma variável é DIFERENTE da outra.
@@ -222,7 +223,45 @@ public class Operadores {
                 String nomeCinco = "Gabriel";
                 String nomeSeis = new String("Gabriel");
                 System.out.println(nomeCinco.equals(nomeSeis));
-            }
+            } */
+        }
+
+
+        // Operadores Lógicos
+        {
+            // Os operadores lógicos representam o recurso que nos permite criar expressões lógicas maiores a partir da junção de duas ou mais expressões.
+            // && - operador lógico "E".
+            // || - operador lógico "OU".
+
+            // Operador Lógico E
+            System.out.println("Operador Lógico E (&&):");
+            boolean condicaoUmE = false;
+            boolean condicaoDoisE = false;
+            if(condicaoUmE && condicaoDoisE)
+                System.out.println("As duas condições são verdadeiras.");
+            else
+                System.out.println("Uma ou ambas condições não são verdade.");
+
+            if(condicaoUmE && (8 > 3))
+                System.out.println("As duas condições são verdadeiras.");
+            else
+                System.out.println("As duas condições não são verdadeiras.");
+            
+            // Operador Lógico OU
+            System.out.println("Operador Lógico OU (||):");
+            boolean condicaoUmOu = true;
+            boolean condicaoDoisOu = true;
+            if(condicaoUmOu || condicaoDoisOu)
+                System.out.println("Uma das condições é verdadeira.");
+            else
+                System.out.println("Nenhuma das condições é verdadeira.");
+
+            if(condicaoUmOu || (8 < 3))
+                System.out.println("Uma das condições é verdadeira.");
+            else
+                System.out.println("Nenhuma das condições é verdadeira.");
+
+            System.out.println("Fim.");
         }
     }
 }
