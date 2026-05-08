@@ -109,5 +109,34 @@ public class Operadores {
             variavelBooleana = !variavelBooleana;
             System.out.println(variavelBooleana);*/
         }
+        
+
+        // Operadores Ternários  
+        {
+            // Os Operadores Ternários são utilizados para definir uma condição entre dois valores. Se assemelha à estrutura de controle de decisão IF, com o diferencial de ser estruturada em apenas uma única linha.
+            // É representado pelos símbolos de interrogação e dois pontos (?:), e são utilizados na seguinto estrutura de sintaxe: <Expressão Condicional> ? <Caso condição seja True> : <Caso condição seja False>
+            {
+                int a, b;
+                a = 6;
+                b = 6;
+                {
+                    String resultadoCondicao = "";
+                    if (a == b)
+                        resultadoCondicao = "Verdadeiro";
+                    else
+                        resultadoCondicao = "Falso";
+                    System.out.println("O resultado é " + resultadoCondicao + ".");
+                }
+                {
+                    // Toda essa expressão pode ser resumida ao utilizar o operador ternário:
+                    String resultadoTernario = a == b ? "True" : "False";
+                    System.out.println("O resultado é " + resultadoTernario + ".");
+                    
+                    // E esse operador não se limita apenas à Strings. Ele também é capaz de lidar com numerais.
+                    int resultadoTernarioNumeral = a == b ? 1 : 0;
+                    System.out.println("A resposta para o resultado é " + resultadoTernarioNumeral + ".");
+                }
+            }
+        }
     }
 }
