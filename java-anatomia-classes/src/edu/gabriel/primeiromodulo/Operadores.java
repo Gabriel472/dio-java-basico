@@ -3,8 +3,8 @@ package edu.gabriel.primeiromodulo;
 public class Operadores {
     public static void main (String [] args) {
         
-        // Operadores Aritméticos
-        {
+        // Operadores Aritiméticos
+        {/*
             // Declaração de valores à variáveis
             // Adição
             double primeiroNumeroSoma = 80.60;
@@ -64,7 +64,50 @@ public class Operadores {
             while (valorDecremento > 40) {
                 System.out.println("O valor do Decremento é de " + valorDecremento + ".");
                 --valorDecremento;
+            }*/
+        }
+    
+
+        // Operadores Unários
+        {/*
+            // Declaração de valores à variáveis
+            // Subtração
+            int operadorUnarioSubtracao = 8;
+            System.out.println("O valor da variável operadorUnarioSubtracao é " + operadorUnarioSubtracao + ".");
+            System.out.println(operadorUnarioSubtracao);
+            
+            operadorUnarioSubtracao = - operadorUnarioSubtracao;
+            System.out.println("O valor da variável operadorUnarioSubtracao é " + 
+            operadorUnarioSubtracao + ".");
+            System.out.println(operadorUnarioSubtracao);
+            
+            operadorUnarioSubtracao = operadorUnarioSubtracao * -1;
+            System.out.println("Convertendo o valor da variável operadorUnarioSubtracao de negativo para positivo " + operadorUnarioSubtracao + ".");
+            System.out.println(operadorUnarioSubtracao);
+            
+            // Incremento
+            int operadorUnarioIncremento = 0; 
+            while (operadorUnarioIncremento <= 3) {
+                System.out.println("O valor da variável operadorUnarioIncremento é de " + operadorUnarioIncremento + ".");
+                ++operadorUnarioIncremento;
             }
+                        
+            // Decremento
+            int operadorUnarioDecremento = 0;
+            while (operadorUnarioDecremento >= -3) {
+                System.out.println("O valor da variável operadorUnarioDecremento é de " + operadorUnarioDecremento + ".");
+                --operadorUnarioDecremento;
+            }
+
+            // Boolean
+            boolean variavelBooleana = true;
+            System.out.println("O valor da variável variavelBooleana é " + variavelBooleana + ".");
+            // Para inverter o valor de uma variável booleana se utiliza o ponto de exclamação (!) antes de seu nome.
+            System.out.println(!variavelBooleana); // Porém isso não atualiza o valor da variável.
+            System.out.println(variavelBooleana);
+            // Para isso, seu valor deve ser reatribuído.
+            variavelBooleana = !variavelBooleana;
+            System.out.println(variavelBooleana);*/
         }
     }
 }
