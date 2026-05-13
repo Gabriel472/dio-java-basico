@@ -33,45 +33,45 @@ public class Metodos {
 
             5. Qual a visibilidade do método? Será necessário que o método seja visível a toda a aplicação, somente em mesmo pacotes, através de herança ou somente a nível a própria classe.
 
-        Abaixo há um exemplo de uma classe com dois métodos e suas respectivas considerações:
+        Abaixo há um exemplo de uma classe com dois métodos e suas respectivas considerações: */
 
-            public class MyClass {
-                public double somar(int num1, int num2){
-                    // LOGICA - FINALIDADE DO MÉTODO
-                    return...;
-                }
+        public class MyClass {
+            public double somar(int num1, int num2){
+                // LOGICA - FINALIDADE DO MÉTODO
+                return...;
+            }
 
-                public void imprimir(String texto){
-                    // LOGICA - FINALIDADE DO MÉTODO
-                    // AQUI NÂO PRECISA DO RETURN
-                    // POIS NÃO SERÁ RETORNADO NENHUM RESULTADO
-                }
+            public void imprimir(String texto){
+                // LOGICA - FINALIDADE DO MÉTODO
+                // AQUI NÂO PRECISA DO RETURN
+                // POIS NÃO SERÁ RETORNADO NENHUM RESULTADO
+            }
 
-                // throws Exception: indica que o métodos, ao ser utilizado, poderá gerar uma exceção
-                public double dividir(int dividendo, int divisor) throws Exception{}
+            // throws Exception: indica que o métodos, ao ser utilizado, poderá gerar uma exceção
+            public double dividir(int dividendo, int divisor) throws Exception{}
 
-                // este método não pode ser visto por outras classes no prjeto
-                private void metodoPrivado(){}
+            // este método não pode ser visto por outras classes no prjeto
+            private void metodoPrivado(){}
 
-                // alguns equívocos estruturais
-                public void validar(){
-                    // este método deveria retornar algun valor
-                    // no caso boolean (true or false)
-                }
+            // alguns equívocos estruturais
+            public void validar(){
+                // este método deveria retornar algun valor
+                // no caso boolean (true or false)
+            }
                 
-                public void calcularEnviar(){
-                    // um método deve representar uma única responsabilidade
-                }
+            public void calcularEnviar(){
+                // um método deve representar uma única responsabilidade
+            }
 
-                public void gravarCliente(String nome, String cpf, Interger telefone, ...){
-                    // este método tem a finalidade de gravar informações de um cliente
-                    // Por que não criar um objeto cliente e passar como parâmetro?
-                    // veja abaixo
-                }
+            public void gravarCliente(String nome, String cpf, Interger telefone, ...){
+                // este método tem a finalidade de gravar informações de um cliente
+                // Por que não criar um objeto cliente e passar como parâmetro?
+                // veja abaixo
+            }
 
-                public void gravarCliente(Cliente cliente){}
-                //ou
-                public void gravar(Cliente cliente){}
-            } */
+            public void gravarCliente(Cliente cliente){}
+            //ou
+            public void gravar(Cliente cliente){}
+        }
     }
 }
