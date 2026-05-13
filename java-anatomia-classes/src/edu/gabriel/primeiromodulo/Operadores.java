@@ -228,7 +228,7 @@ public class Operadores {
 
 
         // Operadores Lógicos
-        {
+        {/*
             // Os operadores lógicos representam o recurso que nos permite criar expressões lógicas maiores a partir da junção de duas ou mais expressões.
             // && - operador lógico "E".
             // || - operador lógico "OU".
@@ -261,7 +261,7 @@ public class Operadores {
             else
                 System.out.println("Nenhuma das condições é verdadeira.");
 
-            System.out.println("Fim.");
+            System.out.println("Fim."); */
         }
     }
 }
