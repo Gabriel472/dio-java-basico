@@ -1,5 +1,5 @@
 package edu.gabriel.primeiromodulo;
-
+/*
 public class Escopo {
     
     // O escopo pode ser entendido como o ambiente onde uma variável pode ser acessada. Em Java, o escopo de variáveis VAI DE ACORDO COMO O BLOCO ONDE ELA FOI DECLARADA.
@@ -43,4 +43,4 @@ public class Escopo {
             return valorMontante;
         }
     }
-}
+} */
