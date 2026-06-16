@@ -2,8 +2,29 @@
     // Use IntelliSense to learn about possible attributes.
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.3.0",
+    "version": "0.4.0",
     "configurations": [
+        {
+            "type": "java",
+            "name": "DesafioDois",
+            "request": "launch",
+            "mainClass": "edu.gabriel.primeiromodulo.desafios.DesafioDois",
+            "projectName": "java-anatomia-classes_d84814ee"
+        },
+        {
+            "type": "java",
+            "name": "DesafioUm",
+            "request": "launch",
+            "mainClass": "edu.gabriel.primeiromodulo.desafios.DesafioUm",
+            "projectName": "java-anatomia-classes_d84814ee"
+        },
+        {
+            "type": "java",
+            "name": "DesafioTres",
+            "request": "launch",
+            "mainClass": "edu.gabriel.primeiromodulo.desafios.DesafioTres",
+            "projectName": "java-anatomia-classes_d84814ee"
+        },
         {
             "type": "java",
             "name": "TerminalArgumentosCinco",
