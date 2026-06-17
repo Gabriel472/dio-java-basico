@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ContaTerminal",
+            "request": "launch",
+            "mainClass": "edu.gabriel.primeiromodulo.projetos.labproject.ContaTerminal",
+            "projectName": "java-anatomia-classes_d84814ee"
+        },
+        {
+            "type": "java",
             "name": "DesafioDois",
             "request": "launch",
             "mainClass": "edu.gabriel.primeiromodulo.desafios.DesafioDois",
