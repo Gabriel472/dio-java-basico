@@ -6,7 +6,7 @@ import java.util.Scanner;
  * <b>Note:</b> Leia atentamente a documentação desta classe para desfrutar dos recursos oferecidos pelo autor.
  * 
  * @author Gabriel Rodrigues
- * @version 1.0
+ * @version 1.1
  * @since 16/06/2026
  */
 
@@ -37,5 +37,7 @@ public class ContaTerminal {
 
         // Exibir a mensagem de conta criada
         System.out.println("Olá, " + nomeCliente + ", obrigado por criar uma conta em nosso banco! Sua agência é " + numeroAgencia + ", conta " + numeroConta + " e seu saldo de R$ " + saldo + " já está disponível para saque.");
+
+        scanner.close();
     }
 }
