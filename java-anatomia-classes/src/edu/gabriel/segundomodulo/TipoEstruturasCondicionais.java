@@ -173,9 +173,9 @@ public class TipoEstruturasCondicionais {
                 default:
                     System.out.println("Indefinido");
 
-                scanner4.close();
+                
             }
-
+                scanner4.close();
 
             /*
             Porém um cenário que poderíamos adequar o uso do Switch/Case para melhorar nosso algorítmo seria conforme a ilustração abaixo:
