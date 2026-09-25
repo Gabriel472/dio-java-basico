@@ -1,13 +1,11 @@
 package edu.gabriel.segundomodulo.projetos;
 
-import java.util.concurrent.ThreadLocalRandom;
-
 /**
  * ProjetoValidacaoProcessoSeletivo
  * <b>Note:</b> Leia atentamente a documentação desta classe para desfrutar dos recursos oferecidos pelo autor.
  * 
  * @author Gabriel Rodrigues
- * @version 1.1
+ * @version 1.2
  * @since 31/08/2026
  */
 
@@ -15,9 +13,11 @@ public class ProjetoValidacaoProcessoSeletivo {
     public static void main(String[] args) {
         /*analisarCandidato(1900.0);
         analisarCandidato(2200.0);
-        analisarCandidato(2000.0);*/
+        analisarCandidato(2000.0);
 
-        selecaoCandidatos();
+        selecaoCandidatos();*/
+
+        imprimirSelecionados();
     }
 
 
@@ -39,7 +39,7 @@ public class ProjetoValidacaoProcessoSeletivo {
     } */
 
 
-    /*Caso 2: Foi solicitado que o sistema garanta que diante das inúmeras candidaturas sejam selecionados apenas no máximo 5 candidatos para entrevista onde o salário pretendido seja menor ou igual ao salário base.*/
+    /*Caso 2: Foi solicitado que o sistema garanta que diante das inúmeras candidaturas sejam selecionados apenas no máximo 5 candidatos para entrevista onde o salário pretendido seja menor ou igual ao salário base.
     
 
     static void selecaoCandidatos(){
@@ -73,5 +73,30 @@ public class ProjetoValidacaoProcessoSeletivo {
 
     static double valorPretendido(){
         return ThreadLocalRandom.current().nextDouble(1800,2200);
+    }*/
+
+
+    /*Caso 3: Imprima a lista dos candidatos selecionados para o RH entrar em contato.*/
+    
+
+    static void imprimirSelecionados(){
+        String [] candidatos = {"FELIPE","MARCIA","JULIA","PAULO","AUGUSTO"};
+
+        System.out.println("Imprimindo a lista de candidatos informando o índice do elemento: \n");
+
+        for(int indice = 0; indice < candidatos.length; indice++){
+            System.out.println("O(A) candidato(a) de nº " + (indice+1) + " é o(a) " + candidatos[indice] + ".");
+        }
+        System.out.println();
+        System.out.println();
+
+        System.out.println("Forma abreviada de interação For/Each: \n"); // Desta forma não é possível definir o número de índice
+
+        for(String candidato: candidatos){
+            System.out.println("O(A) candidato(a) selecionado(a) foi " + candidato + ".");
+        }
+
+        System.out.println();
+        System.out.println();
     }
 }
