@@ -1,11 +1,11 @@
 package edu.gabriel.segundomodulo.projetos;
-
+import java.util.Random;
 /**
  * ProjetoValidacaoProcessoSeletivo
  * <b>Note:</b> Leia atentamente a documentação desta classe para desfrutar dos recursos oferecidos pelo autor.
  * 
  * @author Gabriel Rodrigues
- * @version 1.2
+ * @version 1.3
  * @since 31/08/2026
  */
 
@@ -15,9 +15,14 @@ public class ProjetoValidacaoProcessoSeletivo {
         analisarCandidato(2200.0);
         analisarCandidato(2000.0);
 
-        selecaoCandidatos();*/
+        selecaoCandidatos();
 
-        imprimirSelecionados();
+        imprimirSelecionados();*/
+
+        String [] candidatos = {"FELIPE","MARCIA","JULIA","PAULO","AUGUSTO"};
+        for(String candidato: candidatos){
+            entrandoEmContato(candidato);
+        }
     }
 
 
@@ -76,7 +81,7 @@ public class ProjetoValidacaoProcessoSeletivo {
     }*/
 
 
-    /*Caso 3: Imprima a lista dos candidatos selecionados para o RH entrar em contato.*/
+    /*Caso 3: Imprima a lista dos candidatos selecionados para o RH entrar em contato.
     
 
     static void imprimirSelecionados(){
@@ -98,5 +103,39 @@ public class ProjetoValidacaoProcessoSeletivo {
 
         System.out.println();
         System.out.println();
+    }*/
+
+
+    /*Caso 4: O RH deverá realizar uma ligação com no máximo 03 tentativas para cada candidato selecionado, e, caso o candidato atenda, deve-se imprimir:
+    . "CONSEGUIMOS CONTATO COM [candidato] APÓS [tentativa] TENTATIVA(S)."
+    . do contrário imprima: "NÃO CONSEGUIMOS CONTATO COM O [candidato]." */
+
+    static void entrandoEmContato(String candidato){
+        int tentativasRealizadas = 1;
+        boolean continuarTentando;
+        boolean atendeu = false;
+
+        do { 
+            atendeu = atender();
+            continuarTentando = !atendeu;
+            if(continuarTentando)
+                tentativasRealizadas++;
+            else
+                System.out.println("Contato realizado com sucesso!.");
+        } while (continuarTentando && tentativasRealizadas < 3);
+
+        if(atendeu)
+            System.out.println("Conseguimos contato com " + candidato + " na " + tentativasRealizadas + "ª tentativa.");
+        else{
+            System.out.println("Não conseguimos contato com " + candidato + ".");
+            System.out.println("Número máximo de " + tentativasRealizadas + " tentativas atingido.");
+        }
+
+        System.out.println();
+
+    }
+
+    static boolean atender(){
+        return new Random().nextInt(3)==1;
     }
 }
