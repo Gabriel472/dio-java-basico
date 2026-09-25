@@ -6,8 +6,8 @@ import java.util.Scanner;
  * <b>Note:</b> Leia atentamente a documentação desta classe para desfrutar dos recursos oferecidos pelo autor.
  * 
  * @author Gabriel Rodrigues
- * @version 1.0
- * @since 18/06/2026
+ * @version 1.1
+ * @since 18/07/2026
  */
 
 public class DesafioEscopoEstruturasControleUm {

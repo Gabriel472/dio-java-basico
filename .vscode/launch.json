@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ProjetoValidacaoProcessoSeletivo",
+            "request": "launch",
+            "mainClass": "edu.gabriel.segundomodulo.projetos.ProjetoValidacaoProcessoSeletivo",
+            "projectName": "dio-java-basico_dac93fc3"
+        },
+        {
+            "type": "java",
             "name": "TiposEstruturaRepeticao",
             "request": "launch",
             "mainClass": "edu.gabriel.segundomodulo.TiposEstruturaRepeticao",
