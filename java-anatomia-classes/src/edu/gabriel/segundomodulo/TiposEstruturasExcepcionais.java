@@ -3,10 +3,19 @@ package edu.gabriel.segundomodulo;
 import java.util.Locale;
 import java.util.Scanner;
 
+/**
+ * Contador
+ * <b>Note:</b> Leia atentamente a documentação desta classe para desfrutar dos recursos oferecidos pelo autor.
+ * 
+ * @author Gabriel Rodrigues
+ * @version 1.1
+ * @since 03/07/2026
+ */
+
 public class TiposEstruturasExcepcionais {
     public static void main(String[] args){
         /*
-        Estruturas Exceptionais
+        Estruturas Excepcionais
             Exceções
                 Ao executar o código Java, diferentes erros podem acontecer: erros de codificação feitos pelo programador, erros devidos a entrada errônea ou outros imprevistos.
 

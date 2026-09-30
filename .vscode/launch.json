@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Contador",
+            "request": "launch",
+            "mainClass": "edu.gabriel.segundomodulo.desafios.desafiocontrolefluxo.Contador",
+            "projectName": "dio-java-basico_dac93fc3"
+        },
+        {
+            "type": "java",
             "name": "ProjetoValidacaoProcessoSeletivo",
             "request": "launch",
             "mainClass": "edu.gabriel.segundomodulo.projetos.ProjetoValidacaoProcessoSeletivo",

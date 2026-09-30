@@ -94,5 +94,5 @@ docs/script-files/search-page.js
 docs/script-files/search.js
 java-anatomia-classes/src/edu/gabriel/primeiromodulo/MyClass.java
 java-anatomia-classes/bin/gabriel.lnk
-java-anatomia-classes/src/edu/gabriel/segundomodulo/Test.java
-java-anatomia-classes/src/edu/gabriel/segundomodulo/projetos/placeholder.java
+java-anatomia-classes/src/edu/gabriel/segundomodulo/desafios/desafiocontrolefluxo/Contador.java
+java-anatomia-classes/src/edu/gabriel/segundomodulo/desafios/desafiocontrolefluxo/ParametrosInvalidosException.java
