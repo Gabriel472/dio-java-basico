@@ -2,11 +2,11 @@ package edu.gabriel.terceiromodulo;
 
 /**
  * 
- *                      arc
+ * Conceito de Programação Orientada a Objetos
  * <b>Note:</b> Leia atentamente a documentação desta classe para desfrutar dos recursos oferecidos pelo autor.
  * 
  * @author Gabriel Rodrigues
- * @version 1.0
+ * @version 1.1
  * @since 30/09/2026
  */
 
