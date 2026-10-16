@@ -1,3 +1,5 @@
 # dio-java-basico
-Respositorio para armazenar todo o codigo do curso de Java Basico
-Alterando o conteudo de um arquivo de forma local
+
+Repositório para armazenar todo o código do curso de Java Básico da plataforma DIO
+
+Alterando o conteúdo de um arquivo de forma local
